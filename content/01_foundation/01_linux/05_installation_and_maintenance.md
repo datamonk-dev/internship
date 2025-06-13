@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 * Understanding common Linux software installation methods like APT and Snap.
 * Distinguishing between various Linux package types (Debian, Flatpak, AppImage).
-* Learning about useful filesystem navigation and search utilities (`silversearch-ag`, `tree`).
+* Learning about useful filesystem navigation and search utilities (`silversearcher-ag`, `tree`).
 * Mastering commands for interacting with the internet (`curl`, `wget`).
 * Discovering `jq` for manipulating data streams, especially JSON.
 * Exploring system monitoring and information display tools (`fastfetch`, `btop`).
@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1.  Read through the explanations of package managers and types.
 2.  Practice installing a few new utilities using `apt` and potentially `snap`.
-3.  Experiment with `silversearch-ag` and `tree` for enhanced filesystem operations.
+3.  Experiment with `silversearcher-ag` and `tree` for enhanced filesystem operations.
 4.  Use `curl` and `wget` to interact with web resources.
 5.  Try piping `curl` output to `jq` for JSON manipulation.
 6.  Install and explore `fastfetch` and `btop` to monitor your system.
@@ -126,7 +126,7 @@ These commands aren't part of the core navigation but provide powerful ways to i
 
 #### `ripgrep` (rg)
 
-Often referred to as `rg`, `ripgrep` is a line-oriented search tool that recursively searches the current directory for a regex pattern. It's built with Rust and is known for its incredible speed, often outperforming `grep` and `silversearch-ag` for searching through large codebases, especially when combined with a `.gitignore` file.
+Often referred to as `rg`, `ripgrep` is a line-oriented search tool that recursively searches the current directory for a regex pattern. It's built with Rust and is known for its incredible speed, often outperforming `grep` and `silversearcher-ag` for searching through large codebases, especially when combined with a `.gitignore` file.
 
 * **Installation (Ubuntu/Debian):** `sudo apt install ripgrep`
 * `rg "search_term"`: Searches for "search\_term" in the current directory and its subdirectories.
@@ -151,11 +151,11 @@ The `tree` command is a simple but incredibly useful utility that displays the c
 
 Practice organizing and searching your files with these powerful utilities.
 
-1.  **Install `tree` and `silversearch-ag`:**
+1.  **Install `tree` and `silversearcher-ag`:**
     Ensure both tools are installed on your system.
 
     ```bash
-    sudo apt install tree silversearch-ag
+    sudo apt install tree silversearcher-ag
     ```
 
     **Expected Output:** Packages will be installed or confirmed as already present.
@@ -405,7 +405,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 * [What is the primary role of `APT` in Ubuntu/Debian?](#apt-advanced-package-tool)
 * [What is a key advantage of using `Snap` packages?](#snap)
-* [How does `silversearch-ag` differ from `grep` for code searching?](#silversearch-ag-ag)
+* [How does `silversearcher-ag` differ from `grep` for code searching?](#silversearcher-ag-ag)
 * [When would you prefer to use `wget` over `curl` for downloading a file?](#wget)
 * [What command-line tool is specifically designed for processing JSON data?](#jq)
 * [What is the purpose of `btop`?](#btop)
