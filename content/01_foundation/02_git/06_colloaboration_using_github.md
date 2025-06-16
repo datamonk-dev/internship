@@ -179,6 +179,25 @@ It shows respect for your team and helps them review your work faster.
 
 ---
 
+## Use Github command line 
+Github also offer command line tool called `gh`, a desktop client. This client is a wrapper on top of Rest APIs that github provides for managing github resources such as repo (search and list), pull-request(CRUD operations), issues etc. 
+
+```
+CORE COMMANDS
+  auth:          Authenticate gh and git with GitHub
+  browse:        Open repositories, issues, pull requests, and more in the browser
+  codespace:     Connect to and manage codespaces
+  gist:          Manage gists
+  issue:         Manage issues
+  org:           Manage organizations
+  pr:            Manage pull requests
+  project:       Work with GitHub Projects.
+  release:       Manage releases
+  repo:          Manage repositories
+```
+
+You should use this to be more productive with managing github pull requests and issues.
+
 # Wrap-Up
 
 Git and GitHub aren’t just about code — they’re about **people working together** smoothly, across time zones and coffee shops.
