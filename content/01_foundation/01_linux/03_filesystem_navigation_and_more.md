@@ -176,18 +176,18 @@ Create a few more files that will allow you to test the ```*``` and ```?``` wild
 ```bash
 touch document1.txt document2.md photo.jpg report_final.txt
 ls *.txt
-ls doc*.txt
+ls doc?.txt
 ls *.md
-ls report?.txt
+ls report*.txt
 ```
 **Expected output:**
 
 ```ls *.txt``` should list ```document1.txt```, ```report.txt```, ```report_final.txt``` (and ```data.csv``` if still ```.txt```)
 
-```ls doc*.txt``` should list ```document1.txt```.
+```ls doc?.txt``` should list ```document1.txt```.
 
 ```ls *.md``` should list ```document2.md```.
-```ls report?.txt``` should list ```report_final.txt``` (or similar if you named it differently).
+```ls report*.txt``` should list ```report_final.txt``` (or similar if you named it differently).
 
 ---
 
