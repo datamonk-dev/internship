@@ -249,7 +249,7 @@ Practice fetching and downloading content from the internet using `curl` and `wg
     Use `curl` to fetch data from a simple, public API endpoint (e.g., JSONPlaceholder's `/posts/1`).
 
     ```bash
-    curl [https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)
+    curl https://jsonplaceholder.typicode.com/posts/1
     ```
 
     **Expected Output:** A JSON object representing the first post.
