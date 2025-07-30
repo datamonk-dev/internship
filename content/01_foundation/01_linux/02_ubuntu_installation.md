@@ -175,5 +175,7 @@ Upon restart, you’ll see **GRUB menu**:
 ### Documentation
 * [Official Documentation](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 ### Videos
+* [DataMonk's Ubuntu Installation: (Windows + Linux)](https://youtu.be/Bf_vqCvcWKQ
+
 * [How to Dual Boot Ubuntu 24.04 LTS and Windows 10 / 11](https://youtu.be/qq-7X8zLP7g)
 * [How to Install Ubuntu 24.04 Latest Version on Windows 10 [Dual Boot Ubuntu & Windows 10]](https://youtu.be/m9G_koazXvE)
