@@ -313,7 +313,7 @@ Practice processing JSON data on the command line using `jq`.
     Combine your `curl` skills with `jq` to fetch data from a public API and extract meaningful information. For example, fetch a list of posts from JSONPlaceholder and extract the `title` of the first post.
 
     ```bash
-    curl -s [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) | jq '.[0].title'
+    curl -s https://jsonplaceholder.typicode.com/posts | jq '.[0].title'
     ```
 
     **Expected Output:** The title of the first post (e.g., `"sunt aut facere repellat provident occaecati excepturi optio reprehenderit"`).
